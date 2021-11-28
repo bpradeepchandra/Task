@@ -4,7 +4,7 @@ The objective of this repo is to create a docker-compose configuration to run Pr
 #### Pre-requesites
 Ensure that following softwares are installed on local machine.
 ##### Git:
-- brew install git
+- brew install git (MAC)
 ##### Docker Desktop for Mac:
 https://docs.docker.com/desktop/mac/install/
 - Note: You may install on windows also, please refer to docker site for windows setup. After installation, docker CLI also work pretty well. UI is friendly and easy to navigate between containers, logs and to launch them locally. If someone wants to setup locally, you may clone this repo and from the current directory (Task) run the commands listed in the **Testing & Results** section.
@@ -15,7 +15,7 @@ Configure Prometheus, alertmanager and nginx on the localhost and when the NGNIX
 #### Method:
  In this section, lets discuss about the method followed to achive the aim.
  - Lookup the internet to find the prometheus, alert manager and ngnix docker-compose configurations.
- - Using reference [1,2], docker compose file configuration has been setup for prometheus, alert manager. Some of the configurations has been updated to make it work locally like port number and some unused/unwanted configuration has been eliminated and updated the volumes to match with project structure.
+ - Using reference [1,2], docker compose file configuration has been setup for prometheus, alert manager. Some of the configurations has been updated to make it work locally, like port number and some unused/unwanted configuration has been eliminated and updated the volumes to match with project structure.
  - Using reference [3], docker compose has been updated with ngnix configurations.
 
 #### Testing & Results:
@@ -34,15 +34,15 @@ Configure Prometheus, alertmanager and nginx on the localhost and when the NGNIX
 
 
 #### References:
-[1] https://docs.docker.com/config/daemon/prometheus/
-[2] https://github.com/vegasbrianc/prometheus
-[3] https://linuxiac.com/nginx-docker
+[1] https://docs.docker.com/config/daemon/prometheus/   
+[2] https://github.com/vegasbrianc/prometheus   
+[3] https://linuxiac.com/nginx-docker   
 
 #### Useful resources:
-[1] Prometheus - https://prometheus.io
-[2] Alertmanager - https://prometheus.io/docs/alerting/latest/alertmanager
-[3] Docker - https://www.docker.com
-[4] Docker Compose - https://docs.docker.com/compose
+[1] Prometheus - https://prometheus.io   
+[2] Alertmanager - https://prometheus.io/docs/alerting/latest/alertmanager   
+[3] Docker - https://www.docker.com   
+[4] Docker Compose - https://docs.docker.com/compose   
 
 #### Appendices:
 In this section, screenshots of the outputs or any relevant configuration should be attached.
