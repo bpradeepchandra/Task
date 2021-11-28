@@ -7,7 +7,7 @@ Ensure that following softwares are installed on local machine.
 - brew install git (MAC)
 ##### Docker Desktop for Mac:
 https://docs.docker.com/desktop/mac/install/
-- Note: You may install on windows also, please refer to docker site for windows setup. After installation, docker CLI also work pretty well. UI is friendly and easy to navigate between containers, logs and to launch them locally. If someone wants to setup locally, you may clone this repo and from the current directory (Task) run the commands listed in the **Testing & Results** section.
+- Note: You may install on windows also, please refer to docker & Git sites for windows setup. After installation, docker CLI also work pretty well. UI is friendly and easy to navigate between containers, logs and to launch them locally. If someone wants to setup locally, you may clone this repo and from the current directory (Task) run the commands listed in the **Testing & Results** section.
 
 #### Aim:
 Configure Prometheus, alertmanager and nginx on the localhost and when the NGNIX is down for any reason then it should register in Prometheus system which inturn should send an alert to Alertmanager.
