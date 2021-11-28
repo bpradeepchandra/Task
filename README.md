@@ -46,4 +46,7 @@ Configure Prometheus, alertmanager and nginx on the localhost and when the NGNIX
 
 #### Appendices:
 In this section, screenshots of the outputs or any relevant configuration should be attached.
-
+Alert registered in Prometheus UI:
+![Prometheus Alert graph](https://github.com/bpradeepchandra/Task/blob/main/images/Prometheus-graph.png?raw=true)
+Alert displayed on Alertmanager UI:
+![Alert Manager](https://github.com/bpradeepchandra/Task/blob/main/images/Prometheus-Alerts.png?raw=true)
